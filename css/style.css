@@ -35,14 +35,12 @@
 body{
     background-color: var(--cor1);
     font-family: var(--fonte0);
-    margin: 0px;
     text-align: justify;
 }
 
 header{
     background-image: linear-gradient(to top, var(--cor4), var(--cor2));
-    padding: 10px;
-    width: 100%;
+    padding-top: 10px;
 }
 
 header h1{
@@ -66,7 +64,8 @@ header p{
 
 nav{
     background-color: var(--cor4);
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 nav a{
@@ -172,12 +171,8 @@ ul{
 }
 
 footer{
-    position: absolute;
     background-color: var(--cor5);
     color: var(--cor6);
     text-align: center;
-    width: 100%;
-    height: 30px;
     padding: 10px;
-    margin: 0;
 }
