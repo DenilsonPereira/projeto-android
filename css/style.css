@@ -18,10 +18,10 @@
     --fonte2: 'Android', sans-serif;
 }
 
-*{
+/*{
     margin: 0px;
     padding: 0px;
-}
+}*/
 
 .im{
     width: 100%;   
@@ -178,5 +178,8 @@ footer{
     color: var(--cor6);
     text-align: center;
     width: 100%;
+    height: 30px;
+    padding: 0;
+    margin: 0;
     
 }
